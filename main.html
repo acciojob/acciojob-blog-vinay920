@@ -1,16 +1,98 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Accio Job Blog</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .blog-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .blog-image {
+      width: 200px;
+      height: 200px;
+    }
+
+    .blog-content {
+      margin-left: 20px;
+    }
+
+    .blog-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .blog-description {
+      font-size: 16px;
+    }
+
+    .scrolling-text {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: scrollText 15s linear infinite;
+    }
+
+    @keyframes scrollText {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
 </head>
-
 <body>
-	<!-- all images height shoul be 200px -->
-    <script type="welcome to acciojob"./script.js">
-</script>
+  <div class="container">
+    <h1 class="scrolling-text">Welcome to Acciojobs!</h1>
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/" target="_blank">
+        <img src="Image_one" alt="Blog One" class="blog-image">
+      </a>
+      <div class="blog-content">
+        <h2 class="blog-title">
+          <a href="https://acciojob.com/blog/" target="_blank">Brute Force vs. Optimization</a>
+        </h2>
+        <p class="blog-description">
+          We can say that optimization is one step further than the brute-force method of problem solving...
+        </p>
+      </div>
+    </div>
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/brute-force-vs-optimization/" target="_blank">
+        <img src="image_two" alt="Blog Two" class="blog-image">
+      </a>
+      <div class="blog-content">
+        <h2 class="blog-title">
+          <a href="https://acciojob.com/blog/brute-force-vs-optimization/" target="_blank">DSA vs. Competitive Programming</a>
+        </h2>
+        <p class="blog-description">
+          DSA or Competitive programming? What is better for you? Questions such as these often put you in a...
+        </p>
+      </div>
+    </div>
+    <div class="blog-item">
+      <a href="https://acciojob.com/blog/dsa-vs-competitive-programming/" target="_blank">
+        <img src="image_three" alt="Blog Three" class="blog-image">
+      </a>
+      <div class="blog-content">
+        <h2 class="blog-title">
+          <a href="https://acciojob.com/blog/dsa-vs-competitive-programming/" target="_blank">10 Tips to Optimize Your LinkedIn Profile and Attract Recruiters</a>
+        </h2>
+        <p class="blog-description">
+          As a job seeker, you may wonder how to make your LinkedIn profile stand out to recruiters. Your LinkedIn...
+        </p>
+      </div>
+    </div>
 
-</body>
 
-</html>
+
